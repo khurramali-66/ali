@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Khurram Pay Per Call - Premium call tracking and PPC marketing solutions">
+    <!-- Impact.com Verification Tag (when needed) -->
+    <!-- <meta name="impact-site-verification" value="YOUR_CODE_HERE"> -->
+    
+    <title>Khurram Pay Per Call - Performance Marketing Solutions</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --secondary: #1e40af;
+            --dark: #1e293b;
+            --light: #f8fafc;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            background-color: #f1f5f9;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-left: 2rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+        nav a:hover {
+            opacity: 0.8;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 0.8rem 1.8rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: var(--secondary);
+        }
+        section {
+            padding: 4rem 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            font-size: 2.2rem;
+            color: var(--dark);
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .service-card {
+            background: white;
+            border-radius: 8px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        .contact-info {
+            margin: 2rem 0;
+        }
+        .contact-info a {
+            color: white;
+            display: block;
+            margin: 0.5rem 0;
+            text-decoration: none;
+        }
+        .privacy-policy {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            margin-top: 2rem;
+            text-align: left;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        textarea {
+            min-height: 150px;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav ul {
+                margin-top: 1rem;
+                padding: 0;
+            }
+            nav ul li {
+                margin: 0 1rem;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Khurram Pay Per Call</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="container">
+                <h1>Premium Pay Per Call Marketing</h1>
+                <p>Maximize your ROI with our performance-driven call tracking solutions</p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services">
+                <div class="service-card">
+                    <h3>Pay Per Call Networks</h3>
+                    <p>High-converting call tracking solutions tailored to your business needs with real-time analytics.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Lead Generation</h3>
+                    <p>Quality leads delivered through optimized campaigns and targeted advertising.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Performance Marketing</h3>
+                    <p>Data-driven strategies that maximize your advertising budget and conversions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <p>Khurram Pay Per Call is a premier performance marketing agency specializing in pay-per-call lead generation. With years of experience in the industry, we connect businesses with high-intent customers through strategic call marketing campaigns.</p>
+                <p>Our team of experts leverages cutting-edge technology and data analytics to deliver measurable results for our clients across various industries including legal, home services, insurance, and healthcare.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy">
+        <div class="container">
+            <h2 class="section-title">Privacy Policy</h2>
+            <div class="privacy-policy">
+                <h3>Information Collection</h3>
+                <p>We collect information when you fill out forms on our site including name, email address, phone number, and other details to provide our services.</p>
+                
+                <h3>Use of Information</h3>
+                <p>Your information is used to:</p>
+                <ul>
+                    <li>Personalize your experience</li>
+                    <li>Improve our website</li>
+                    <li>Process transactions</li>
+                    <li>Send periodic emails</li>
+                </ul>
+                
+                <h3>Information Protection</h3>
+                <p>We implement security measures to maintain your personal information's safety. Your data is contained behind secured networks.</p>
+                
+                <h3>Contacting Us</h3>
+                <p>For questions about this policy, contact us at:</p>
+                <p>Email: muhammadkhurramali761@gmail.com<br>
+                Phone: +923037729922</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo">Khurram Pay Per Call</div>
+            <div class="contact-info">
+                <a href="mailto:muhammadkhurramali761@gmail.com">muhammadkhurramali761@gmail.com</a>
+                <a href="tel:+923037729922">+92 303 7729922</a>
+            </div>
+            <p>&copy; 2023 Khurram Pay Per Call. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
